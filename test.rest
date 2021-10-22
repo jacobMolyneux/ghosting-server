@@ -1,0 +1,16 @@
+### get homepage
+GET http://localhost:3000/
+
+### create message 
+POST http://localhost/chat
+header: {
+ content-type: 'application/json',
+ },
+
+body {
+     text: "message Sent!",
+     sender: "sender1",
+     recipient: "recipient1"
+ }
+ 
+
