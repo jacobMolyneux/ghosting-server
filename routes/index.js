@@ -1,6 +1,7 @@
 var express = require("express");
 var router = express.Router();
 const chatController = require("../Controllers/chatController");
+const cors = require("cors");
 
 /* GET home page. */
 router.get("/", chatController.Homepage);
